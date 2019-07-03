@@ -3,7 +3,8 @@ class Pizza {
 }
 
 class List<T> {
-  private list: T[];
+  // private list: T[];
+  constructor(private list: T[]){}
 
   addItem(item: T): void {
     this.list.push(item);
